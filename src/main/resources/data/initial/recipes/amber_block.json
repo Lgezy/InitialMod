@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "AAA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "initial:amber"
+    }
+  },
+  "result": {
+    "item": "initial:amber_block"
+  }
+}

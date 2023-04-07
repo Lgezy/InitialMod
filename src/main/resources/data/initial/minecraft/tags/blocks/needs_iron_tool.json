@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "initial:amber_block",
+    "initial:amber_block_ore",
+    "initial:deep_amber_ore"
+  ]
+}

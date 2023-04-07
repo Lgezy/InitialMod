@@ -1,0 +1,8 @@
+{
+  "item.initial.amber" : "琥珀",
+  "block.initial.amber_block" : "琥珀块",
+  "block.initial.deep_amber_ore" : "深层琥珀块",
+  "block.initial.amber_block_ore" : "琥珀石",
+  "itemGroup.initial.initial_item" : "初始Mod物品",
+  "itemGroup.initial.initial_block" : "初始Mod方块"
+}

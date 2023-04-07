@@ -1,0 +1,14 @@
+{
+  "type" : "minecraft:crafting_shapeless",
+  "ingredients": [
+
+    {
+      "item": "initial:amber_block"
+    }
+  ],
+  "result":
+  {
+    "item": "initial:amber",
+    "count": 9
+  }
+}

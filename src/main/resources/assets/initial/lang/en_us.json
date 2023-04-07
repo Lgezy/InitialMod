@@ -1,0 +1,8 @@
+{
+  "item.initial.amber" : "Amber",
+  "block.initial.amber_block" : "Amber Block",
+  "block.initial.deep_amber_ore" : "Deep amber ore",
+  "block.initial.amber_block_ore" : "Amber ore",
+  "itemGroup.initial.initial_item" : "Initial Module Item",
+  "itemGroup.initial.initial_block" : "Initial Module Block"
+}

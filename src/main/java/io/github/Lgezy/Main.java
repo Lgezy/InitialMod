@@ -1,7 +1,8 @@
 package io.github.Lgezy;
 
+import io.github.Lgezy.blocks.AddBlocks;
+import io.github.Lgezy.items.AddItems;
 import net.fabricmc.api.ModInitializer;
-import org.lwjgl.system.CallbackI;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -12,8 +13,8 @@ public class Main implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
-
-		LOGGER.info("Hello Fabric world!");
+		AddItems.insertItems();
+		AddBlocks.registerBlocks();
+		LOGGER.info("你好，物品正在注册中... ...");
 	}
 }
