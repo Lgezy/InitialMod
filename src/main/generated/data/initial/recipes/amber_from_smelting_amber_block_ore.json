@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "group": "initial_block",
+  "ingredient": {
+    "item": "initial:amber_block_ore"
+  },
+  "result": "initial:amber",
+  "experience": 1.0,
+  "cookingtime": 200
+}

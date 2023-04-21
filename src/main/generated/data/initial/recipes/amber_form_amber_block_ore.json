@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "initial:amber_block_ore"
+    }
+  ],
+  "result": {
+    "item": "initial:amber",
+    "count": 9
+  }
+}

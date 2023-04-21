@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:amber_from_smelting_deep_amber_ore"
+    ]
+  },
+  "criteria": {
+    "has_deep_amber_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "initial:deep_amber_ore"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:amber_from_smelting_deep_amber_ore"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_deep_amber_ore",
+      "has_the_recipe"
+    ]
+  ]
+}

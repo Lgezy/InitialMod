@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:deep_block_ore_form_amber"
+    ]
+  },
+  "criteria": {
+    "has_amber": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "initial:amber"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:deep_block_ore_form_amber"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_amber",
+      "has_the_recipe"
+    ]
+  ]
+}

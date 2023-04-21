@@ -19,6 +19,9 @@
   "entrypoints": {
     "main": [
       "io.github.Lgezy.Main"
+    ],
+    "fabric-datagen": [
+      "io.github.Lgezy.DataGenMain"
     ]
   },
   "mixins": [

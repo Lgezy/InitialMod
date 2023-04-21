@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:amber_from_blasting_amber_block_ore"
+    ]
+  },
+  "criteria": {
+    "has_amber_block_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "initial:amber_block_ore"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:amber_from_blasting_amber_block_ore"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_amber_block_ore",
+      "has_the_recipe"
+    ]
+  ]
+}
